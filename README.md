@@ -5,6 +5,8 @@ Crius is a Python package to compute the elastic response of multiphase material
 
 Crius package is divided into three directories: pre-processing, numerical-analysis and post-processing.
 
+Crius is a packaged developed as an individual project for the MSc Applied Computational Science and Engineering offered by Imperial College London
+
 ## Installation
 
 ### Installation of Crius
