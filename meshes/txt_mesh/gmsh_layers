@@ -1,0 +1,10 @@
+Rectangle(2) = {x+0.05, y+0, z+0.0, 0.1,1}; 
+Rectangle(3) = {x+0.25, y+0, z+0.0, 0.1,1}; 
+Rectangle(4) = {x+0.45, y+0, z+0.0, 0.1,1}; 
+Rectangle(5) = {x+0.6499999999999999, y+0, z+0.0, 0.1,1}; 
+Rectangle(6) = {x+0.85, y+0, z+0.0, 0.1,1}; 
+s() = BooleanFragments { Surface{1}; Delete; }{ Surface{2 :6}; Delete; }; 
+Physical Surface(0) = {7, 8, 9, 10, 11, 12}; 
+Physical Surface(1) = {2, 3, 4, 5, 6}; 
+Mesh.CharacteristicLengthMin = 0.07; 
+Mesh.CharacteristicLengthMax = 0.07; 
