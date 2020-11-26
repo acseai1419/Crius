@@ -55,6 +55,10 @@ The scripts in pre-processing/3-D are executed as standalone scripts as they gen
 - create_3D_Layers: Writes information of a composite 3-D laminate material.
 - create_CT_Scan: Writes information of a 3-D CT Scan where each voxel of the image represents a geometric element.
 
+### 3-D CT SCAN
+
+This directory is under development in order to take a stack of 2-D CT-scan images and convert them into a 3D volumetric mesh to be imported for the numerical analysis
+
 ### meshes
 
 #### txt_mesh
