@@ -8,21 +8,21 @@ Surface Loop(2) = {2};
 //+
 Volume(2) = {2};
 
-//w_max = General.MaxX;
-//h_max = General.MaxY;
-//l_max = General.MaxZ;
+w_max = General.MaxX;
+h_max = General.MaxY;
+l_max = General.MaxZ;
 
-//w_min = General.MinX;
-//h_min = General.MinY;
-//l_min = General.MinZ;
+w_min = General.MinX;
+h_min = General.MinY;
+l_min = General.MinZ;
 
-w_max = 5.98247299e+01;
-h_max = 5.98244133e+01;
-l_max = 5.98231239e+01;
+//w_max = 5.98247299e+01;
+//h_max = 5.98244133e+01;
+//l_max = 5.98231239e+01;
 
-w_min = -2.35293992e-02;
-h_min = -2.45382767e-02;
-l_min = -2.28728727e-02;
+//w_min = -2.35293992e-02;
+//h_min = -2.45382767e-02;
+//l_min = -2.28728727e-02;
 
 w = w_max - w_min;
 h = h_max - h_min;
