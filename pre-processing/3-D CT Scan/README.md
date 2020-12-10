@@ -45,10 +45,11 @@ Volumetric Meshes of each phase in .vtk
 
 Volumetric Meshes after meshing in gmsh with physical and geometrical information
 
-boolean_80x80_brep_simple: Generated from the geometry files ( boolean_geometries.geo)
-boolean_100x100_brep_simple: Generated from the geometry files ( boolean_geometries.geo)
-boolean_stl_300x300: Generated from one stl file (boolean_stl.geo)
-merged_300x300_stl: Generated from two stl files (stl.geo)
+
+####### boolean_80x80_brep_simple: Generated from the geometry files ( boolean_geometries.geo)
+####### boolean_100x100_brep_simple: Generated from the geometry files ( boolean_geometries.geo)
+####### boolean_stl_300x300: Generated from one stl file (boolean_stl.geo)
+####### merged_300x300_stl: Generated from two stl files (stl.geo)
 
 
 
