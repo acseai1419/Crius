@@ -10,7 +10,7 @@ Two methods were developed:
 
 #### Steps to follow
 
-The pygalmesh.py script generates the 3-D array from the photos and which holds the physical information of the 3-D CT scan. Using Pygalmesh library a voluemtric and surface mesh for each phase is generated and saved in .stl and .vtk files.
+The pygalmesh.py script generates the 3-D array from the photos and which holds the physical information of the 3-D CT scan. Using Pygalmesh library a volumetric and surface mesh for each phase is generated and saved in .vtk and .stl files respectively.
 
 ##### Gmsh(geo)
 
@@ -24,7 +24,7 @@ This directory holds 3 scripts for generating the Volumetric mesh using Gmsh sof
 
 ##### Geometries
 
-Geometries hold some of the brep files created for the same dataset
+Contains .brep files created from the images dataset.
 
 ###### 80x80_simple: triangles of the same size define a small geometry of low resolution images (80 images) - solid geometry (null corners)
 ###### 100x100_simple: triangles of the same size define a geometry of low resolution images (100 images) - solid geometry (null corners)
@@ -33,23 +33,23 @@ Geometries hold some of the brep files created for the same dataset
 
 ##### Surface Meshes
 
-Surface meshes of each phase (.stl)
+Surface meshes of each phase in .stl format
 
 ##### Volumetric Meshes
 
 ##### VTK
 
-Volumetric Meshes of each phase in .vtk
+Volumetric Meshes of each phase in .vtk format
 
 ##### Gmsh(msh)
 
 Volumetric Meshes after meshing in gmsh containing physical and geometrical information
 
 
-###### boolean_80x80_brep_simple: Generated from the geometry files ( boolean_geometries.geo)
-###### boolean_100x100_brep_simple: Generated from the geometry files ( boolean_geometries.geo)
-###### boolean_stl_300x300: Generated from one stl file (boolean_stl.geo)
-###### merged_300x300_stl: Generated from two stl files (stl.geo)
+###### boolean_80x80_brep_simple: Generated from one .brep file (gmsh code used -> boolean_geometries.geo)
+###### boolean_100x100_brep_simple: Generated from one .brep file (gmsh code used -> boolean_geometries.geo)
+###### boolean_stl_300x300: Generated from one stl file (gmsh code used -> boolean_stl.geo)
+###### merged_300x300_stl: Generated from two stl files (gmsh code used -> stl.geo)
 
 
 
