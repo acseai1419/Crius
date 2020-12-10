@@ -22,7 +22,7 @@ This directory holds 3 scripts for generating the Volumetric mesh using Gmsh sof
 
 3. stl.geo: Merges the two stl files which defines the two volumes and periodic boundaries are implemented to the geometry.
 
-#### Geometries
+##### Geometries
 
 Geometries hold some of the brep files created for the same dataset
 
@@ -31,6 +31,19 @@ Geometries hold some of the brep files created for the same dataset
 ###### 300x300_optimized: triangles of different size define a geometry of high resolution images (300 images) - not solid
 ###### 80x80_optimized: triangles of different size define a geometry of high resolution images (80 images) - solid with invalid boundaries
 
+##### Surface Meshes
+
+Surface meshes of each phase (.stl)
+
+##### Volumetric Meshes
+
+###### VTK
+
+Volumetric Meshes of each phase in .vtk
+
+###### Gmsh(msh)
+
+Volumetric Meshes after meshing in gmsh with physical and geometrical information
 
 
 
