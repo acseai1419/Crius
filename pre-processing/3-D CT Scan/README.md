@@ -22,6 +22,14 @@ This directory holds 3 scripts for generating the Volumetric mesh using Gmsh sof
 
 3. stl.geo: Merges the two stl files which defines the two volumes and periodic boundaries are implemented to the geometry.
 
+#### Geometries
+
+Geometries hold some of the brep files created for the same dataset
+
+###### 80x80_simple: triangles of the same size define a small geometry of low resolution images (80 images) - solid geometry (null corners)
+###### 100x100_simple: triangles of the same size define a geometry of low resolution images (100 images) - solid geometry (null corners)
+###### 300x300_optimized: triangles of different size define a geometry of high resolution images (300 images) - not solid
+###### 80x80_optimized: triangles of different size define a geometry of high resolution images (80 images) - solid with invalid boundaries
 
 
 
