@@ -43,7 +43,7 @@ Volumetric Meshes of each phase in .vtk
 
 ##### Gmsh(msh)
 
-Volumetric Meshes after meshing in gmsh with physical and geometrical information
+Volumetric Meshes after meshing in gmsh containing physical and geometrical information
 
 
 ###### boolean_80x80_brep_simple: Generated from the geometry files ( boolean_geometries.geo)
