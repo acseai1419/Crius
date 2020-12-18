@@ -11,8 +11,7 @@ Crius was developed as an individual project for the MSc Applied Computational S
 
 ### Installation of Crius
 
-1. `git clone https://github.com/acse-2019/irp-acseai1419.git`
-2. `cd Code/Crius`
+1. `git clone https://github.com/acseai1419/Crius.git`
 
 Crius was built in a Linux environment as a standalony Python package using the dolfin library from FEniCS project.
 It is recommended that FEniCS project is installed using the Conda package manager for the software dependancies using 3.8 version.
