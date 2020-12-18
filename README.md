@@ -18,18 +18,18 @@ It is recommended that FEniCS project is installed using the Conda package manag
 
 ### Installation of FEniCS project and Mshr Library
 
-3. `conda create -n fenicsproject -c conda-forge fenics`
-4. `source activate fenicsproject`
-5. `conda install -c conda-forge mshr`
+2. `conda create -n fenicsproject -c conda-forge fenics`
+3. `source activate fenicsproject`
+4. `conda install -c conda-forge mshr`
 
 ### Installation of Gmsh software (version 4.6.0 was used)
 
-6. `sudo apt-get update -y`
-7. `sudo apt-get install -y gmsh`
+5. `sudo apt-get update -y`
+6. `sudo apt-get install -y gmsh`
 
 ### Installation of ParaView (version 5.7.0 was used)
 
-8. `sudo apt-get install -y paraview`
+7. `sudo apt-get install -y paraview`
 
 ## Architecture
 
